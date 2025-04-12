@@ -12,7 +12,7 @@ GhostTag is a Python tool for capturing network traffic, embedding custom flags 
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.x
 - [`Scapy`](https://scapy.readthedocs.io/) library  
@@ -23,7 +23,7 @@ GhostTag is a Python tool for capturing network traffic, embedding custom flags 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 python GhostTag.py
@@ -37,14 +37,14 @@ Then follow the prompts:
 
 ---
 
-## 📦 Output
+## Output
 
 - A file called `traffic_with_flags.pcap` will be saved in your current directory.
 - You can open it with tools like **Wireshark** to inspect how flags were embedded into real traffic.
 
 ---
 
-## 📌 Example Flag
+## Example Flag
 
 ```
 FlagX{you_found_me}
@@ -52,7 +52,7 @@ FlagX{you_found_me}
 
 ---
 
-## 📋 Use Cases
+## Use Cases
 
 - Building **CTF challenges** where flags must be extracted from network traffic.
 - **Training** students in packet analysis and threat detection.
@@ -60,7 +60,7 @@ FlagX{you_found_me}
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 GhostTag is for educational and ethical use only. Do not use it on networks without explicit permission.
 
